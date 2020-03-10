@@ -20,6 +20,7 @@ using namespace llvm;
 using namespace std;
 
 extern FILE *yyin;
+extern int line;
 char *fileNameOut;
 char *funName;
 Module* M;
@@ -32,6 +33,7 @@ int yyparse();
 
 void setup()
 {
+  
   std::vector<Type*> params;
   params.push_back(Builder.getInt32Ty());
   params.push_back(PointerType::get(Builder.getInt32Ty(),0));
@@ -45,12 +47,14 @@ void setup()
   BasicBlock *BB = BasicBlock::Create(TheContext,"entry",Func);
 
   Builder.SetInsertPoint(BB);
+  
 }
 
 int
 main (int argc, char ** argv)
 {
   /* ./p1 filein fileout */
+  // printf("Inside main function\n");
 
   if (argc < 3) {
     fprintf(stderr,"Not enough positional arguments to %s.\n",argv[0]);
@@ -81,7 +85,7 @@ main (int argc, char ** argv)
   if (yyparse()==0)
     {
       /* Write bitcode to file with name argv[2] */
-  
+      printf("Lines in file: %d",line);
       //Print the module to file
       std::error_code EC;
       raw_fd_ostream OS(fileNameOut,EC,sys::fs::F_None);  

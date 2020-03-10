@@ -34,7 +34,7 @@ clean:
 %-build:
 	$(VERB) $(P1TOOL)  $(addsuffix .p1,$*) $(addsuffix .bc,$*)
 	llvm-dis $(addsuffix .bc,$*)
-	$(VERB) $(CLANG) $(LIBS) $(HEADERS) -Dfunc_to_call=$* -o $* main.c $(addsuffix .bc,$*)
+	$(VERB) $(CLANG) $(LIBS) $(HEADERS) -Wno-deprecated-register -Dfunc_to_call=$* -o $* main.c $(addsuffix .bc,$*)
 
 %-test:
 	$(VERB) ./$* $(addsuffix .data,$*) > $@ 
