@@ -67,6 +67,7 @@ Value* symbol_find(const char*name)
     }
   else
     {
+      // printf("%s\n",name);
       return M->getNamedGlobal(name);
     }
 }
@@ -75,6 +76,7 @@ struct symbol_info * get_symbol_in_scope(const char *name, scope_t *scope)
 {
   if (scope==NULL)
     {
+      // printf("Must be in global scope \n");
       /* then must be global scope */
       return NULL;
     }
@@ -83,6 +85,7 @@ struct symbol_info * get_symbol_in_scope(const char *name, scope_t *scope)
 
   HASH_FIND_STR(scope->map, name, si);  /* id already in the hash? */
   if (si==NULL) {
+    // printf("Going to lower scope \n");
     scope = scope->lower;
     return get_symbol_in_scope(name,scope);
   }

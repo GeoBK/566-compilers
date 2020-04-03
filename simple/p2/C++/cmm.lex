@@ -94,6 +94,7 @@ bool              return BOOL;
 return            return RETURN;
 break             return BREAK;
 continue          return CONTINUE;
+default           return DEFAULT;
 
 
 {DIGIT}*         { yylval.inum = atoi(yytext); return CONSTANT_INTEGER; }
