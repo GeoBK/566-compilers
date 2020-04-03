@@ -1,0 +1,5 @@
+int global_var = 0;
+int test_16()
+{
+    return global_var;
+}

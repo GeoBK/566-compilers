@@ -20,7 +20,7 @@ int main()
 	else
 	  success++;
 
-  for (i=-2; i<2; i++)
+  for (i=-2; i<5; i++)
     if (test_14(i,1)!=test_function(i,1))
 	  errors++;
 	else

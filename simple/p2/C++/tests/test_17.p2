@@ -1,0 +1,6 @@
+int five(){
+    return 5;
+}
+int test_17(){
+    return 2*five();
+}
