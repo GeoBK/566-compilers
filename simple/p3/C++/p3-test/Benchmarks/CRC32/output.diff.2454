@@ -1,0 +1,8 @@
+1,2c1,4
+< FFFFFFFFDC8B7C2A 26611200
+< exit 0
+---
+> /ncstate_ece566_spring2020/simple/p3/C++/p3-test/../../../../wolfbench/Benchmarks/adpcm/large.pcm: No such file or directory
+> 00400560       0
+> exit 1
+> RunSafely.sh detected a failure with these command-line arguments:  60 1 /dev/null output_large.out ./crc32 /ncstate_ece566_spring2020/simple/p3/C++/p3-test/../../../../wolfbench/Benchmarks/adpcm/large.pcm
