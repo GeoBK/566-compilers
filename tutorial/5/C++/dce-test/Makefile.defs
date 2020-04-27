@@ -1,0 +1,33 @@
+# Config settings
+
+
+
+# Tools we need
+CUSTOMTOOL=/ncstate_ece566_spring2020/tutorial/5/C++/dce
+CUSTOMCODEGEN=
+FAULTINJECTTOOL=
+PROFILER=
+P1TOOL=true
+P2TOOL=
+CLANG=/usr/local/bin/clang
+OPT=/usr/local/bin/opt
+LLC=/usr/local/bin/llc
+LLVMAS=/usr/local/bin/llvm-as
+LLVM_LINK=/usr/local/bin/llvm-link
+LLVM_CONFIG=/usr/local/bin/llvm-config
+LLVM_DIS=/usr/local/bin/llvm-dis
+DRAGONEGG=
+GCC=/usr/bin/gcc
+
+LIBS=
+PLIBS=`cd /ncstate_ece566_spring2020/tutorial/5/C++/dce-test/../../../../wolfbench/../projects/install/lib/; pwd`/librt.a `$(LLVM_CONFIG) --libdir`/libprofile_rt.a
+
+RUN=/ncstate_ece566_spring2020/tutorial/5/C++/dce-test/../../../../wolfbench/RunSafelyAndStable.sh 60 1 
+
+DIFF=/ncstate_ece566_spring2020/tutorial/5/C++/dce-test/../../../../wolfbench/RunDiff.sh
+
+EXTRA_SUFFIX=
+
+ifdef DEBUG
+CFLAGS+=-g
+endif

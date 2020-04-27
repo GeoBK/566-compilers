@@ -21,7 +21,12 @@
 #include "Summary.hpp"
 
 using namespace llvm;
-
+extern int CSEDead;
+extern int CSEElim;
+extern int CSESimplify;
+extern int CSELdElim;
+extern int CSELdStElim;
+extern int CSERStElim;
 typedef struct Stats_def {
   int functions;
   int globals;
@@ -106,6 +111,12 @@ void print_csv_file(const char *filename, Stats s, const char *id)
   //fprintf(f,"loads_alloca,%d\n",s.loads_alloca);
   //fprintf(f,"loads_globals,%d\n",s.loads_globals);
   fprintf(f,"stores,%d\n",s.stores);
+  fprintf(f,"CSE_Dead,%d\n",CSEDead);  
+  fprintf(f,"CSE_Basic,%d\n",CSEElim);
+  fprintf(f,"CSE_Simplify,%d\n",CSESimplify);
+  fprintf(f,"CSE_RLd,%d\n",CSELdElim);
+  fprintf(f,"CSE_RSt,%d\n",CSERStElim);
+  fprintf(f,"CSE_LdSt,%d\n",CSELdStElim);
   // fprintf(f,"stores_alloca,%d\n",s.stores_alloca);
   // fprintf(f,"stores_global,%d\n",s.stores_globals);
   // fprintf(f,"gep,%d\n",s.gep);

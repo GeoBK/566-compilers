@@ -79,9 +79,9 @@ main (int argc, char ** argv)
     Passes.add(createVerifierPass());
     if (Mem2Reg) 
       {
-	Passes.add(createPromoteMemoryToRegisterPass());
+	      Passes.add(createPromoteMemoryToRegisterPass());
       }
-    Passes.add(createDeadCodeEliminationPass());
+    //Passes.add(createDeadCodeEliminationPass());
     Passes.run(*M.get());
   }
 
@@ -96,8 +96,8 @@ main (int argc, char ** argv)
    }
    {
      legacy::PassManager Passes;
-     Passes.add(createDeadCodeEliminationPass());
-     Passes.add(createCFGSimplificationPass()); 
+     //Passes.add(createDeadCodeEliminationPass());
+     //Passes.add(createCFGSimplificationPass()); 
      Passes.run(*M.get());
    }
    

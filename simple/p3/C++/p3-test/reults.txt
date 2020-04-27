@@ -1,0 +1,145 @@
+make  -C SimpleTests all
+make[1]: Entering directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/SimpleTests'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/SimpleTests'
+make  -C Benchmarks all
+make[1]: Entering directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks'
+make[1]: Leaving directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks'
+make[1]: Entering directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/SimpleTests'
+hello, world!
+make[1]: Leaving directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/SimpleTests'
+make[1]: Entering directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks'
+make[2]: Entering directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/adpcm'
+[timing adpcm]
+make[2]: Leaving directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/adpcm'
+make[2]: Entering directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/arm'
+[timing arm]
+make[2]: Leaving directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/arm'
+make[2]: Entering directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/basicmath'
+[timing basicmath]
+make[2]: Leaving directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/basicmath'
+make[2]: Entering directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/bh'
+[timing bh]
+make[2]: Leaving directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/bh'
+make[2]: Entering directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/bitcount'
+[timing bitcount]
+make[2]: Leaving directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/bitcount'
+make[2]: Entering directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/CRC32'
+[timing crc32]
+make[2]: Leaving directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/CRC32'
+make[2]: Entering directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/dijkstra'
+[timing dijkstra]
+make[2]: Leaving directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/dijkstra'
+make[2]: Entering directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/em3d'
+[timing em3d]
+make[2]: Leaving directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/em3d'
+make[2]: Entering directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/FFT'
+[timing fft]
+make[2]: Leaving directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/FFT'
+make[2]: Entering directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/hanoi'
+[timing hanoi]
+make[2]: Leaving directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/hanoi'
+make[2]: Entering directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/kmp'
+[timing kmp]
+make[2]: Leaving directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/kmp'
+make[2]: Entering directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/l2lat'
+[timing l2lat]
+make[2]: Leaving directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/l2lat'
+make[2]: Entering directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/patricia'
+[timing patricia]
+make[2]: Leaving directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/patricia'
+make[2]: Entering directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/qsort'
+[timing qsort]
+make[2]: Leaving directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/qsort'
+make[2]: Entering directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/sha'
+[timing sha]
+make[2]: Leaving directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/sha'
+make[2]: Entering directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/smatrix'
+[timing smatrix]
+make[2]: Leaving directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/smatrix'
+make[2]: Entering directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/susan'
+[timing susan]
+make[2]: Leaving directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/susan'
+make[2]: Entering directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/sqlite'
+[timing sql]
+make[2]: Leaving directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/sqlite'
+make[1]: Leaving directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks'
+make[1]: Entering directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/SimpleTests'
+make[1]: Nothing to be done for 'compare'.
+make[1]: Leaving directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/SimpleTests'
+make[1]: Entering directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks'
+make[2]: Entering directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/adpcm'
+[timing adpcm]
+[compared adpcm] Ok
+make[2]: Leaving directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/adpcm'
+make[2]: Entering directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/arm'
+[timing arm]
+[arm] Comparing /ncstate_ece566_spring2020/simple/p3/C++/p3-test/../../../../wolfbench/Benchmarks/arm/arm.output.stderr arm.output.stderr .... failed. Differences in /ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/arm/output.diff.26737
+[compared arm] Failed: 1 of 1.
+make[2]: Leaving directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/arm'
+make[2]: Entering directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/basicmath'
+[timing basicmath]
+[compared basicmath] Ok
+make[2]: Leaving directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/basicmath'
+make[2]: Entering directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/bh'
+[timing bh]
+[compared bh] Ok
+make[2]: Leaving directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/bh'
+make[2]: Entering directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/bitcount'
+[timing bitcount]
+[bitcount] Comparing /ncstate_ece566_spring2020/simple/p3/C++/p3-test/../../../../wolfbench/Benchmarks/bitcount/output.bitcount bitcount.out .... failed. Differences in /ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/bitcount/output.diff.26836
+[compared bitcount] Failed: 1 of 1.
+make[2]: Leaving directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/bitcount'
+make[2]: Entering directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/CRC32'
+[timing crc32]
+[compared crc32] Ok
+make[2]: Leaving directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/CRC32'
+make[2]: Entering directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/dijkstra'
+[timing dijkstra]
+[compared dijkstra] Ok
+make[2]: Leaving directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/dijkstra'
+make[2]: Entering directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/em3d'
+[timing em3d]
+[compared em3d] Ok
+make[2]: Leaving directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/em3d'
+make[2]: Entering directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/FFT'
+[timing fft]
+[compared fft] Ok
+make[2]: Leaving directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/FFT'
+make[2]: Entering directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/hanoi'
+[timing hanoi]
+[compared hanoi] Ok
+make[2]: Leaving directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/hanoi'
+make[2]: Entering directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/kmp'
+[timing kmp]
+[compared kmp] Ok
+make[2]: Leaving directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/kmp'
+make[2]: Entering directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/l2lat'
+[timing l2lat]
+Nothing compared for l2lat
+make[2]: Leaving directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/l2lat'
+make[2]: Entering directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/patricia'
+[timing patricia]
+[compared patricia] Ok
+make[2]: Leaving directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/patricia'
+make[2]: Entering directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/qsort'
+[timing qsort]
+[compared qsort] Ok
+make[2]: Leaving directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/qsort'
+make[2]: Entering directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/sha'
+[timing sha]
+[compared sha] Ok
+make[2]: Leaving directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/sha'
+make[2]: Entering directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/smatrix'
+[timing smatrix]
+[compared smatrix] Ok
+make[2]: Leaving directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/smatrix'
+make[2]: Entering directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/susan'
+[timing susan]
+[compared susan] Ok
+make[2]: Leaving directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/susan'
+make[2]: Entering directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/sqlite'
+[timing sql]
+[compared sql] Ok
+make[2]: Leaving directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks/sqlite'
+make[1]: Leaving directory '/ncstate_ece566_spring2020/simple/p3/C++/p3-test/Benchmarks'

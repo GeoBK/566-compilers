@@ -1,0 +1,4 @@
+3c3
+< exit 0
+---
+> Assertion Failure #1exit 0
