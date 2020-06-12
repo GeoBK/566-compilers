@@ -1,0 +1,14 @@
+int test_18(int a)
+{
+    int i;
+    int count;
+    count = 0;
+    do
+    {
+        count = count + 4;
+        i = i + 1;
+
+    } while (i < a);
+
+    return count;
+}
